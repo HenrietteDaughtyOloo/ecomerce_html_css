@@ -1,0 +1,151 @@
+.navBar{
+
+}
+ul,li{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    /* text-align: center; */
+    width: 10%;
+    margin-left: 30%;
+    margin-right: 10%;
+
+}
+#firstImage{
+    width: 100%;
+    /* height: fit-content; */
+    /* width: 60%; */
+    /* width: 100%;
+    width:min-content; */
+}
+
+
+.purpleContent{
+    /* background-color: rgb(131, 82, 131); */
+    background-color: blueviolet;
+    /* background-color: rgb(86, 86, 204); */
+    display: flex;
+}
+#sophisticated{
+    margin-top: 5%;
+    margin-left: 10%;
+    color: white;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sophisticatedbtn{
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(238, 110, 131);
+    width: 200px;
+}
+#weeklySelection{
+    text-align: center;
+    font-weight: lighter;
+    font-size: larger;
+}
+#pad{
+    padding: 2%;
+}
+/* #drestop{
+    display: flex;
+    text-align: center;
+    /* justify-content: space-between;} */
+#image1{
+    width: 100%;
+    padding: 20px;
+}
+.content1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%, 0%;
+    
+}
+.content3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%, 10%;
+    
+}
+
+#viewProducts{
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(238, 110, 131);
+    width: 300px;
+    font-size: larger;
+}
+#view{
+    text-align: center;
+}
+.content2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#image2{
+    width: 65%;
+    padding: 20px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#image3{
+    width: 65%;
+    padding: 20px;
+    margin-left: 30%;
+    /* margin-bottom: -20%; */
+    margin-top: 10%;
+}
+
+
+#image0{
+    width: 130%;
+    padding: 20px;
+    margin-left: 10%;
+    /* margin-bottom: -20%; */
+    margin-top: 10%;
+}
+
+#parag1{
+    text-align: center;
+    margin-left: 10%;
+    margin-top: -50%; 
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+
+}
+#parag2{
+    text-align: center;
+    margin-left: 0%;
+    margin-top: -30%; 
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+#image4{
+    width: 90%;
+    /* height: 600px; */
+    padding: 20px;
+    margin-left: 0%;
+    /* margin-bottom: -20%; */
+    /* margin-top: 10%; */
+}
+#inputed{
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    width: 200px;
+
+}
+.footer{
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+
