@@ -148,4 +148,138 @@ ul,li{
     grid-template-columns: 2fr 1fr 1fr 1fr;
 }
 
+@media screen and (max-width:767px){
+
+    .navBar{
+
+    }
+    ul,li{
+        display: grid;
+        text-align: left;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+            
+    
+    }
+    #firstImage{
+        width: 50%;
+    }
+    
+    
+    .purpleContent{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #sophisticated{
+        font-size: x-small;
+    }
+    #sophisticatedbtn{
+        padding: 10px;
+        width: 100px;
+    }
+    #weeklySelection{
+        text-align: center;
+        text-align:left;
+        font-size: smaller;
+    }
+    #pad{
+        padding: 1%;
+    }
+    #image1{
+        width: 100%;
+        padding: 20px;
+    }
+    .content1{
+        width: 100%;
+        display: grid;
+        grid-template-columns:1fr;
+        justify-content: space-between;
+        margin: 0%, 0%;
+        
+    }
+    .content3{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        margin: 0%, 10%;
+        
+    }
+    
+    #viewProducts{
+        width: 300px;
+        font-size: smaller;
+    }
+    #view{
+        text-align: center;
+    }
+    .content2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        justify-content: space-between;
+    }
+    #image2{
+        width: 100%;
+        padding: 20px;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #image3{
+        width: 100%;
+        padding: 20px;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    
+    
+    #image0{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    
+    #parag1{
+        text-align: center;
+        margin-left: 10%;
+        margin-top: -50%; 
+        font-weight: bolder;
+        font-size: larger;
+        color: white;
+    
+    }
+    #parag2{
+        text-align: center;
+        margin-left: 0%;
+        margin-top: -30%; 
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+    }
+    #image4{
+        width: 100%;
+        /* height: 600px; */
+        padding: 20px;
+        margin-left: 0%;
+        /* margin-bottom: -20%; */
+        /* margin-top: 10%; */
+    }
+    #inputed{
+        padding: 15px;
+        border-radius: 5px;
+        color: black;
+        background-color: white;
+        width: 200px;
+    
+    }
+    .footer{
+        margin-left: 3%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+
+}
+
+
 
