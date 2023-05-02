@@ -46,7 +46,7 @@ ul,li{
     font-size: larger;
 }
 #pad{
-    padding: 2%;
+    padding: 1%;
 }
 /* #drestop{
     display: flex;
@@ -54,7 +54,7 @@ ul,li{
     /* justify-content: space-between;} */
 #image1{
     width: 100%;
-    padding: 20px;
+    padding: 0px;
 }
 .content1{
     display: flex;
@@ -65,7 +65,7 @@ ul,li{
 .content3{
     display: flex;
     justify-content: space-between;
-    margin: 0%, 10%;
+    margin: 0%, 0%;
     
 }
 
@@ -103,15 +103,15 @@ ul,li{
 
 #image0{
     width: 130%;
-    padding: 20px;
-    margin-left: 10%;
+    padding: 10px;
+    margin-left: 0%;
     /* margin-bottom: -20%; */
     margin-top: 10%;
 }
 
 #parag1{
     text-align: center;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: -50%; 
     font-weight: bolder;
     font-size: larger;
@@ -129,7 +129,7 @@ ul,li{
 #image4{
     width: 100%;
     /* height: 600px; */
-    padding: 20px;
+    padding: 5px;
     margin-left: 0%;
     /* margin-bottom: -20%; */
     /* margin-top: 10%; */
@@ -143,7 +143,7 @@ ul,li{
 
 }
 .footer{
-    margin-left: 3%;
+    margin-left: 1%;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
 }
@@ -158,6 +158,9 @@ ul,li{
         text-align: left;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 10%;
+    
             
     
     }
@@ -202,7 +205,7 @@ ul,li{
         display: grid;
         grid-template-columns: 1fr;
         justify-content: space-between;
-        margin: 0%, 10%;
+        margin: 0%, 0%;
         
     }
     
@@ -259,7 +262,7 @@ ul,li{
     #image4{
         width: 100%;
         /* height: 600px; */
-        padding: 20px;
+        padding: 10px;
         margin-left: 0%;
         /* margin-bottom: -20%; */
         /* margin-top: 10%; */
@@ -269,11 +272,12 @@ ul,li{
         border-radius: 5px;
         color: black;
         background-color: white;
-        width: 200px;
+        width: 100px;
     
     }
     .footer{
-        margin-left: 3%;
+        width: 100%;
+        margin-left: 0%;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
